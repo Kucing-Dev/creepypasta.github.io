@@ -1,0 +1,71 @@
+body {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url('background.webp'); /* Gambar sebagai background */
+    background-size: cover; /* Mengisi seluruh area dengan gambar */
+    background-position: center; /* Pusatkan gambar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; /* Transparan */
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Transparan */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 300px; /* Sesuaikan ukuran logo */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url('background.webp'); /* Gambar sebagai background */
+    background-size: cover; /* Mengisi seluruh area dengan gambar */
+    background-position: center; /* Pusatkan gambar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    color: #fff; /* Warna teks putih untuk kontras dengan gambar background */
+}
+
+p {
+    line-height: 1.6;
+    color: #fff; /* Warna teks putih untuk kontras dengan gambar background */
+}
+
+.story-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.author-info {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    color: #888;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.8); /* Transparan */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon {
+    width: 30px; /* Sesuaikan ukuran yang diinginkan */
+    height: auto; /* Biarkan tinggi otomatis agar proporsi gambar tetap terjaga */
+  }
